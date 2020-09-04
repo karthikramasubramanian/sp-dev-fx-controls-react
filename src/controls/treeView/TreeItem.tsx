@@ -224,7 +224,7 @@ export default class TreeItem extends React.Component<ITreeItemProps, ITreeItemS
         return (
           <TreeItem
             treeItem={item}
-            defaultExpanded={this.state.expanded}
+            defaultExpanded={this.props.defaultExpanded}
             leftOffset={paddingLeft}
             selectionMode={selectionMode}
             activeItems={activeItems}
